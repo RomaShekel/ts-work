@@ -26,6 +26,7 @@ const [isOpen, setIsOpen] = useState(false)
         contentLabel="Example Modal">
         <h2>Welcome to Modal</h2>
         <button type='button' onClick={() => setIsOpen(false)}>Close</button>
+        <button type='button'>Close</button>
       </Modal>
      </div>
     </>
