@@ -22,8 +22,6 @@ const [isOpen, setIsOpen] = useState(false)
       <button type="button" onClick={() => setIsOpen(!isOpen)} >Toggle Modal</button>
       <Modal
         isOpen={isOpen}
-        // onAfterOpen={afterOpenModal}
-        // onRequestClose={setIsOpen(false)}
         style={customStyles}
         contentLabel="Example Modal">
         <h2>Welcome to Modal</h2>
